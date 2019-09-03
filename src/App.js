@@ -18,8 +18,12 @@ class App extends React.Component {
   }
 
   render() {
-    console.log(this.state.items);
-    return <div>hey</div>;
+    console.log(this.state.items.report);
+    return (
+      <div>
+        <div>hey</div>
+      </div>
+    );
   }
 }
 
